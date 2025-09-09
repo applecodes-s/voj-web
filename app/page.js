@@ -1,36 +1,33 @@
-import Layout from "@/components/layout/Layout"
-import Banner from "@/components/sections/home1/Banner"
-import Blog from "@/components/sections/home1/Blog"
 
-import Testimonial from "@/components/sections/home1/Testimonial"
-import Gallery from "@/components/sections/home1/Gallery"
-import Juice from "@/components/sections/home1/Juice"
-import Beverage from "@/components/sections/home1/Beverage"
-import Deal from "@/components/sections/home1/Deal"
-import Recipe from "@/components/sections/home1/Recipe"
-import Fluid from "@/components/sections/home1/Fluid"
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+import Layout from "@/components/layout/Layout"
+
+import Banner from "@/components/sections/home4/Banner"
+import Clients from "@/components/sections/home4/Clients"
+import Gallery from "@/components/sections/home4/Gallery"
+import Menu from "@/components/sections/home4/Menu"
+import Menu2 from "@/components/sections/home4/Menu2"
+import Menu3 from "@/components/sections/home4/Menu3"
+import Staff from "@/components/sections/home4/Staff"
+import Testimonial from "@/components/sections/home4/Testimonial"
+import Tips from "@/components/sections/home4/Tips"
+import Video from "@/components/sections/home4/Video"
 export default function Home() {
 
-    return (
+    return (  
         <>
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={4} footerStyle={4}>
                 <Banner />
-                <Juice/>
-                <Beverage/>
-                <Deal/>
-                <Recipe/>
-                <Fluid/>
                 <Testimonial />
-                <Blog />
+                <Menu />
+                <Video />
+                <Tips />
+                <Menu2 />
                 <Gallery />
+                <Menu3 />
+                {/* <Staff />
+                <Clients /> */}
 
-                
-                
             </Layout>
-
         </>
     )
 }
