@@ -5,7 +5,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
 
         {/* Page Title */}
-        <section className="page-title" style={{ backgroundImage: 'url(assets/images/background/6.jpg)' }} >
+        <section className="page-title text-black" style={{ backgroundImage: 'url(assets/images/background/6.jpg)' }} >
             <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/background/pattern-7.png)' }} ></div>
             <div className="auto-container">
                 <h2>{breadcrumbTitle}</h2>

@@ -9,7 +9,9 @@ import Beverage from "@/components/sections/home1/Beverage"
 import Deal from "@/components/sections/home1/Deal"
 import Recipe from "@/components/sections/home1/Recipe"
 import Fluid from "@/components/sections/home1/Fluid"
-
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 export default function Home() {
 
     return (

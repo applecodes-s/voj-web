@@ -40,7 +40,7 @@ export default function About() {
    
     return (
         <>
-        <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="About Us">
+        <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="About Us">
         {/* History Section */}
         <section className="history-section-two">
             <div className="auto-container">
@@ -52,9 +52,7 @@ export default function About() {
                             <div className="image">
                                 <img src="assets/images/resource/history-3.jpg" alt="" />
                             </div>
-                            <div className="image-two">
-                                <img src="assets/images/resource/history-4.png" alt="" />
-                            </div>
+                           
                         </div>
                     </div>
                     
@@ -64,8 +62,9 @@ export default function About() {
                             {/* Sec Title */}
                             <div className="sec-title">
                                 <div className="title">Our Vision and History </div>
-                                <h2>Founded in 1970 by <span className="theme_color">Chairman Jay Martin</span></h2>
-                                <div className="text">The Juice Plus+ Company has grown from a small, direct-sales company into a highly successful, privately held health and wellness company operatinLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                                <h2>Founded in 1978 by <span className="theme_color">Vincent SelvaKumar</span></h2>
+                                <div className="text">Voice of Jesus Ministries International – a pioneering prophetic ministry dedicated to proclaiming end-time prophecies and preparing the world for the Second Coming of the King of kings, Lord Jesus Christ – was founded by Bro. Vincent Selva Kumar in 1978.
+                                    <br/> <br/>     Bro. Vincent Selva Kumar, known for his divine encounter with God during his college days, surrendered his life to the Lord with the sole objective of sharing prophetic messages aimed at preparing the world for the Second Coming of the Lord.</div>
                             </div>
                             <ul className="list-style-two">
                                 <li>Cras at mi luctus, tincidunt urna eu, posuere enim</li>
@@ -180,30 +179,18 @@ export default function About() {
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
-                    <div className="title">Our most valuable asset</div>
-                    <h2>Friendly Staff</h2>
+                    <div className="title">Current Leadership</div>
+                    <h2>Bro. Jonathan James & Sis. Angeline Jonathan                    </h2>
+                    <div className="text">Bro. Jonathan James and Sis. Angeline Jonathan, kin of Bro. Vincent Selva Kumar,
+                         have taken upon themselves <br/> the responsibility of continuing  the ministry and legacy of his vision. <br/> <br/>
+                        Having embraced this mission, they have dedicated their lives to carrying it forward to the people 
+                        of this end-time generation.  <br/> Grounded in prayer, prophetic revelation, and extraordinary oratory skills,
+                         they have remained steadfast <br/> in their commitment to serving God.</div>
                 </div>
-                <div className="row clearfix">
+                <div className="row clearfix justify-content-center">
                 
                     {/* Staff Block */}
-                    <div className="staff-block col-lg-4 col-md-6 col-sm-12">
-                        <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div className="image">
-                                <Link href="#"><img src="assets/images/resource/staff-1.jpg" alt="" /></Link>
-                                <div className="overlay-box">
-                                    <div className="content">
-                                        <h6><Link href="#">Jusica Malina</Link></h6>
-                                        <div className="designation">Pastry Chef</div>
-                                        <ul className="social-list">
-                                            <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-facebook-square"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-twitter-square"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+               
                     
                     {/* Staff Block */}
                     <div className="staff-block col-lg-4 col-md-6 col-sm-12">
@@ -248,76 +235,7 @@ export default function About() {
                 </div>
             </div>
         </section>
-        {/* End Staff Section */}
-        
-        {/* Testimonial Section */}
-        <section className="testimonial-section">
-            <div className="icon-layer-one" style={{ backgroundImage: 'url(assets/images/icons/icon-1.png)' }} ></div>
-            <div className="icon-layer-two" style={{ backgroundImage: 'url(assets/images/icons/icon-2.png)' }} ></div>
-            <div className="icon-layer-three" style={{ backgroundImage: 'url(assets/images/icons/icon-3.png)' }} ></div>
-            <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/background/pattern-4.png)' }} ></div>
-            <div className="auto-container">
-                {/* Sec Title */}
-                <div className="sec-title centered">
-                    <div className="title">Testimonial</div>
-                    <h2>What People Say</h2>
-                    <div className="separate"></div>
-                </div>
-                <div className="inner-container">
-                    <Swiper {...swiperOptions} className="single-item-carousel owl-carousel owl-theme">
-                    
-                        {/* Testimonial Block */}
-                        <SwiperSlide>
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="author-image">
-                                    <img src="assets/images/resource/author-1.jpg" alt="" />
-                                </div>
-                                <div className="text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br/> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco.”</div>
-                                <div className="designation">Meredith Grant <span>- Host Mother</span></div>
-                            </div>
-                        </div>
-                        </SwiperSlide>
-                        
-                        {/* Testimonial Block */}
-                        <SwiperSlide>
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="author-image">
-                                    <img src="assets/images/resource/author-1.jpg" alt="" />
-                                </div>
-                                <div className="text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br/> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco.”</div>
-                                <div className="designation">Meredith Grant <span>- Host Mother</span></div>
-                            </div>
-                        </div>
-                        </SwiperSlide>
-                        
-                        {/* Testimonial Block */}
-                        <SwiperSlide>
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="author-image">
-                                    <img src="assets/images/resource/author-1.jpg" alt="" />
-                                </div>
-                                <div className="text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br/> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco.”</div>
-                                <div className="designation">Meredith Grant <span>- Host Mother</span></div>
-                            </div>
-                        </div>
-                        </SwiperSlide>
-                        
-                    </Swiper>
-                </div>
-            </div>
-        </section>
-        {/* End Testimonial Section */}
-        
-        {/* Gallery Section */}
-        <section className="gallery-section">
-            <div className="outer-container">
-                <GallerySlider1/>
-            </div>
-        </section>
-        {/* End Gallery Section */}
+      
 
             </Layout>
         </>

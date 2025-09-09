@@ -23,12 +23,11 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Our Restaurant">
+            <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Prophetic Centre">
                 <div>
                     {/* Restaurant Section */}
                     <section className="restaurant-section">
-                        <div className="icon-layer-one" style={{ backgroundImage: 'url(assets/images/resource/restaurant-icon-1.png)' }} ></div>
-                        <div className="icon-layer-two" style={{ backgroundImage: 'url(assets/images/resource/restaurant-icon-2.png)' }} ></div>
+                       
                         <div className="auto-container">
                             <div className="inner-container">
                                 <div className="image">
@@ -36,7 +35,7 @@ export default function Home() {
                                 </div>
                                 <div className="opening-box" style={{ backgroundImage: 'url(assets/images/resource/restaurant-1.jpg)' }} >
                                     <div className="box-inner">
-                                        <h3>Opening <span>Hourse</span></h3>
+                                        <h3>Opening <span>Hours</span></h3>
                                         <ul className="timing-list">
                                             <li>Mon - Thu<span>9AM - 9PM</span></li>
                                             <li>Fri- Sat<span>10AM - 10PM</span></li>
@@ -163,7 +162,8 @@ export default function Home() {
                                               
                                         {/*Block*/}
                                         <li className={isActive.key == 1 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(1)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> What is the our resturent</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> Lorem ipsum dolor sit amet consectetur.
+                                            </div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
@@ -207,7 +207,7 @@ export default function Home() {
                                                     
                                         {/*Block*/}
                                         <li className={isActive.key == 4 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(4)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> What is the our resturent</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> Lorem ipsum dolor sit amet consectetur.t</div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
@@ -249,13 +249,7 @@ export default function Home() {
                     </section>
                     {/* End Faq Section */}
                     
-                    {/* Gallery Section */}
-                    <section className="gallery-section">
-                        <div className="outer-container">
-                            <GallerySlider1/>
-                        </div>
-                    </section>
-                    {/* End Gallery Section */}
+               
                 </div>
 
             </Layout>

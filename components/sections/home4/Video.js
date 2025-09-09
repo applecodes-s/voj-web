@@ -17,7 +17,7 @@ export default function Video() {
                 </div>
             </section>
             {/* End Video Section Two */}
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ko5J6yGIaog" onClose={() => setOpen(false)} />
         </>
     )
 }

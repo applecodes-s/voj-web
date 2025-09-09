@@ -1,20 +1,23 @@
 
 import Layout from "@/components/layout/Layout"
 import GallerySlider1 from '@/components/slider/GallerySlider1'
+import Link from "next/link"
+
 export default function Home() {
 
     return (
         <>
-    <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Contact">
+    <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Contact">
         {/* Contact Page Section */}
         <section className="contact-page-section">
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
                     <div className="title">Get in touch</div>
-                    <h2>Hi <span className="theme_color">Say</span></h2>
+                    <h2>With us<span className="theme_color"></span></h2>
                     <div className="separate"></div>
-                    <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas <br/> accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. Nam sint <br/> atqui voluptatibus an, pro ne malis semper perpetua.</div>
+                    <div className="text">We'd love to hear from you. Reach out to us for prayer requests, <br/>
+                        ministry inquiries, or any questions you may have.</div>
                 </div>
                 <div className="row clearfix">
                 
@@ -60,12 +63,20 @@ export default function Home() {
                         <div className="inner-column">
                             <ul className="info-list">
                                 <li>
-                                    <strong>Berlin</strong>
-                                    52 Corso Magenta <br/>20123 Milano, Italy <br/> +123 -45678-900 <br/>yourspa@info.com
+                                    <strong>Voice of Jesus <br/> Ministries International</strong>
+                                    N G O Colony <br/>
+Anna Nagar <br/>
+Ramanathapuram <br/>
+Tamil Nadu 623 501 
                                 </li>
                                 <li>
                                     <strong>Opening Hours</strong>
                                     Monday – Friday 09:00 – 23:00 <br/> Saturday 09:00 – 22:00
+                                </li>
+                                <li>
+                                    <strong>Contact</strong>
+                                   +91 9788404333 <br/>
+                                   +91 9788404222
                                 </li>
                             </ul>
                         </div>
@@ -76,28 +87,99 @@ export default function Home() {
         </section>
         {/* End Contact Page Section */}
         
-        {/* Map Section */}
-        <section className="contact-map-section">
-            <div className="auto-container">
-                {/* Map Boxed */}
-                <div className="map-boxed">
-                    {/*Map Outer*/}
-                    <div className="map-outer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s"></iframe>
+
+        <section className="gallery-section-two">
+                <div className="outer-container">
+                    <div className="masonry-items-container row clearfix">
+                    
+                        {/* Gallery Block Two */}
+                        <div className="gallery-block-two masonry-item col-lg-3 col-md-6 col-sm-12">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <img src="assets/images/gallery/19.jpg" alt="" />
+                                    <div className="overlay-box">
+                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* Gallery Block Two */}
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="row">
+                                <div className="gallery-block-two masonry-item col-lg-12 col-md-12 col-sm-12">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <img src="assets/images/gallery/20.jpg" alt="" />
+                                            <div className="overlay-box">
+                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Gallery Block Two */}
+                                <div className="gallery-block-two masonry-item col-lg-12 col-md-12 col-sm-12">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <img src="assets/images/gallery/23.jpg" alt="" />
+                                            <div className="overlay-box">
+                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Gallery Block Two */}
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="row">
+                                {/* Gallery Block Two */}
+                                <div className="gallery-block-two masonry-item col-lg-6 col-md-6 col-sm-12">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <img src="assets/images/gallery/21.jpg" alt="" />
+                                            <div className="overlay-box">
+                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                {/* Gallery Block Two */}
+                                <div className="gallery-block-two masonry-item col-lg-6 col-md-6 col-sm-12">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <img src="assets/images/gallery/22.jpg" alt="" />
+                                            <div className="overlay-box">
+                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Gallery Block Two */}
+                                <div className="gallery-block-two masonry-item col-lg-12 col-md-12 col-sm-12">
+                                    <div className="inner-box">
+                                        <div className="image-box">
+                                            <img src="assets/images/gallery/24.jpg" alt="" />
+                                            <div className="overlay-box">
+                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
+                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
-                </div>
             </div>
         </section>
-        {/* End Map Section */}
-        
-        {/* Gallery Section */}
-        <section className="gallery-section">
-            <div className="outer-container">
-                <GallerySlider1/>
-            </div>
-        </section>
-        {/* End Gallery Section */}
-        
 
     </Layout>
     </>

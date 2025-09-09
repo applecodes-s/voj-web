@@ -29,9 +29,10 @@ export default function Footer4() {
                                         <div className="footer-widget contact-widget">
                                             <h6>Contact us</h6>
                                             <ul className="contact-list">
-                                                <li><Link href="mailto:www.yourwebsite.com">Your mail @ gmail.com</Link></li>
-                                                <li><Link href="mailto:www.yourwebsite.com">Your mail @ gmail.com</Link></li>
-                                                <li><Link href="tel:+123-4567-89000">(123) 4567 89000</Link></li>
+                                                <li><Link href="mailto:voiceofjesusministries.com">www.voiceofjesusministries.com</Link></li>
+                                                <li><Link href="mailto:vincentselvakumaar@gmail.com">vincentselvakumaar@gmail.com</Link></li>
+                                                <li><Link href="tel:+91 9788404222">+91 9788404222</Link></li>
+                                                <li><Link href="tel:+91 9788404333">+91 9788404333</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -47,19 +48,19 @@ export default function Footer4() {
                                     <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                         <div className="footer-widget visit-widget">
                                             <h6>Visit</h6>
-                                            <div className="text">6Fifth Avenue 5501, Broadway, <br/> New York Morris Street <br/> London 1234</div>
+                                            <div className="text">NGO Colony, Anna Nagar <br/> Ramanathapuram, <br/> Tamil Nadu 623 501 </div>
                                         </div>
                                     </div>
                                     
+                    
                                     {/*Footer Column*/}
                                     <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                         <div className="footer-widget social-widget">
                                             <h6>Follow Us Now</h6>
                                             <ul className="social-list">
-                                                <li><Link href="#"><span className="icon fa fa-facebook"></span>facebook</Link></li>
-                                                <li><Link href="#"><span className="icon fa fa-twitter"></span>twitter</Link></li>
-                                                <li><Link href="#"><span className="icon fa fa-instagram"></span>instagram</Link></li>
-                                                <li><Link href="#"><span className="icon fa fa-dribbble"></span>dribbble</Link></li>
+                                                <li><Link href="https://www.facebook.com/VSK.VoiceofJesusMinistries/"><span className="icon fa fa-facebook"></span>facebook</Link></li>
+                                                <li><Link href="https://www.instagram.com/voiceofjesusministries.vsk/?hl=en"><span className="icon fa fa-instagram"></span>instagram</Link></li>
+                                                <li><Link href="https://www.youtube.com/@theFinalalert"><span className="icon fa fa-youtube"></span>youtube</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -72,7 +73,7 @@ export default function Footer4() {
                 </div>
                 <div className="footer-bottom">
                     <div className="auto-container">
-                        <div className="copyright">&copy; 2024 <Link href="/">foodily</Link> All Rights Reserved.</div>
+                        <div className="copyright">&copy; 2024 <Link href="/">VOJM</Link> All Rights Reserved.</div>
                     </div>
                 </div>
             </footer>

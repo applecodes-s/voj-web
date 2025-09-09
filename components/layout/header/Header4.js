@@ -14,9 +14,9 @@ export default function Header4({ scroll, handleSidebar, handleMobileMenu }) {
                 {/* Header Upper */}
                 <div className="header-upper">
                     <ul className="social-list">
-                        <li><Link href="#"><span className="icon fa fa-facebook"></span></Link></li>
-                        <li><Link href="#"><span className="icon fa fa-twitter"></span></Link></li>
-                        <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
+                        <li><Link href="https://www.facebook.com/VSK.VoiceofJesusMinistries/"><span className="icon fa fa-facebook"></span></Link></li>
+                        <li><Link href="https://www.youtube.com/@theFinalalert"><span className="icon fa fa-youtube"></span></Link></li>
+                        <li><Link href="https://www.instagram.com/voiceofjesusministries.vsk/?hl=en"><span className="icon fa fa-instagram"></span></Link></li>
                     </ul>
                     <div className="auto-container">
                         <div className="clearfix">

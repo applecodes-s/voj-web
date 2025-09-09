@@ -18,8 +18,8 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-1.png" alt="" />
                                 </div>
-                                <h6><Link href="#">Awesome taste</Link></h6>
-                                <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam.</div>
+                                <h6><Link href="#">WORSHIP & PRAYER</Link></h6>
+                                <div className="text">Join us in heartfelt worship and intercession as we encounter God’s presence.</div>
                             </div>
                         </div>
                         
@@ -32,8 +32,8 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-2.png" alt="" />
                                 </div>
-                                <h6><Link href="#">Organic fruits</Link></h6>
-                                <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam.</div>
+                                <h6><Link href="#">PROPHETIC TEACHINGS                                </Link></h6>
+                                <div className="text">Be equipped and edified through powerful biblical and prophetic revelations.</div>
                             </div>
                         </div>
                         
@@ -46,8 +46,8 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-3.png" alt="" />
                                 </div>
-                                <h6><Link href="#">Healthy Blends</Link></h6>
-                                <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam.</div>
+                                <h6><Link href="#">WATCH SERMONS</Link></h6>
+                                <div className="text">Stay connected with our YouTube sermons, livestreams, and media updates.</div>
                             </div>
                         </div>
                         

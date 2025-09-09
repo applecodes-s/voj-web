@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Gallery">
+        <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Gallery">
         
         {/* Gallery Page Section */}
         <section className="gallery-page-section">
@@ -19,7 +19,7 @@ export default function Home() {
                         <div className="gallery-block-two masonry-item">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <img src="assets/images/gallery/25.jpg" alt="" />
+                                    <img src="assets/images/gallery/19.jpg" alt="" />
                                     <div className="overlay-box">
                                         <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                         <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -34,7 +34,7 @@ export default function Home() {
                         <div className="gallery-block-two masonry-item">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <img src="assets/images/gallery/26.jpg" alt="" />
+                                    <img src="assets/images/gallery/20.jpg" alt="" />
                                     <div className="overlay-box">
                                         <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                         <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -46,7 +46,7 @@ export default function Home() {
                         <div className="gallery-block-two masonry-item">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <img src="assets/images/gallery/29.jpg" alt="" />
+                                    <img src="assets/images/gallery/21.jpg" alt="" />
                                     <div className="overlay-box">
                                         <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                         <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -64,7 +64,7 @@ export default function Home() {
                                 <div className="gallery-block-two masonry-item">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <img src="assets/images/gallery/27.jpg" alt="" />
+                                            <img src="assets/images/gallery/22.jpg" alt="" />
                                             <div className="overlay-box">
                                                 <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                                 <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <div className="gallery-block-two masonry-item">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <img src="assets/images/gallery/28.jpg" alt="" />
+                                            <img src="assets/images/gallery/23.jpg" alt="" />
                                             <div className="overlay-box">
                                                 <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                                 <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -91,7 +91,7 @@ export default function Home() {
                                 <div className="gallery-block-two masonry-item">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <img src="assets/images/gallery/30.jpg" alt="" />
+                                            <img src="assets/images/gallery/24.jpg" alt="" />
                                             <div className="overlay-box">
                                                 <h6><Link href="gallery">Cornish cod fillet</Link></h6>
                                                 <div className="title">Us percipit urbanitas referrentur ea.</div>
@@ -109,13 +109,7 @@ export default function Home() {
         </section>
         {/* End Gallery Page Section */}
         
-        {/* Gallery Section */}
-        <section className="gallery-section">
-            <div className="outer-container">
-                <GallerySlider1/>
-            </div>
-        </section>
-        {/* End Gallery Section */}
+    
         </Layout>
     </>
     )

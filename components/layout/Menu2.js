@@ -14,13 +14,13 @@ export default function Menu() {
        
             <ul className="navigation left-nav clearfix">
                 <li className="dropdown">
-                    <Link href="/">Home </Link>
-                    <ul>
+                    <Link href="index-4">Home </Link>
+                    {/* <ul>
                         <li className="/"><Link href="/">Home One</Link></li>
                         <li><Link href="index-2">Home Two</Link></li>
                         <li><Link href="index-3">Home Three</Link></li>
                         <li><Link href="index-4">Home Four</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="dropdown">
                     <Link href="#specials">Specials</Link>

@@ -13,7 +13,7 @@ import Tips from "@/components/sections/home4/Tips"
 import Video from "@/components/sections/home4/Video"
 export default function Home() {
 
-    return (
+    return (  
         <>
             <Layout headerStyle={4} footerStyle={4}>
                 <Banner />
@@ -24,8 +24,8 @@ export default function Home() {
                 <Menu2 />
                 <Gallery />
                 <Menu3 />
-                <Staff />
-                <Clients />
+                {/* <Staff />
+                <Clients /> */}
 
             </Layout>
         </>
