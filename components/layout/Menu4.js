@@ -8,10 +8,6 @@ export default function Menu() {
     return (
         <>
 
-
-
-
-       
             <ul className="navigation left-nav clearfix">
                 <li className="dropdown">
                     <Link href="home">Home </Link>
@@ -26,7 +22,6 @@ export default function Menu() {
 
                 </li>
                 <li><Link href="gallery">Gallery</Link></li>
-                <li><Link href="Magazine">Magazine</Link></li>
 
                
             </ul>

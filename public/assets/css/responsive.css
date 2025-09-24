@@ -542,6 +542,41 @@
 	
 }
 
+/* Medium screens */
+@media (max-width: 1200px) {
+    .header-style-five .social-list {
+        left: 10px;   /* move closer to left */
+        top: 20px;    /* move up */
+    }
+
+    .header-style-five .main-menu .navigation {
+        margin-left: 120px; /* push menu away from icons */
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .header-style-five .social-list li a {
+        font-size: 16px; /* smaller icons */
+    }
+
+    .header-style-five .main-menu .navigation {
+        margin-left: 100px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .header-style-five .social-list {
+        display: none; /* hide on mobile */
+    }
+
+    .header-style-five .main-menu .navigation {
+        margin-left: 0;
+    }
+}
+
+
 @media only screen and (max-width: 767px){
 	
 	.header-upper .logo-outer {

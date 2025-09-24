@@ -45,7 +45,7 @@ export default function Menu3() {
                                         <h6><Link href="menu">Tarry Meeting</Link></h6>
                                         <div className="title">Message by Vincent SelvaKumar</div>
                                         <div className="price-box">
-                                        <span className="price">Alternate Months 2nd Saturday</span>
+                                        <span className="price">Alternate Months 2nd Sat</span>
                                         </div>
                                     </div>
                                 </div>

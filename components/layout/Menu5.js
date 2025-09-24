@@ -7,14 +7,10 @@ export default function Menu() {
 
     return (
         <>
-
-
-
-
-       
             <ul className="navigation right-nav clearfix">
                
-             
+            <li><Link href="Magazine">Magazine</Link></li>
+
                 <li><Link href="give">Give</Link></li>
 
                 <li><Link href="contact">Contact</Link></li>

@@ -625,7 +625,7 @@
 
 /* Footer List */
 
-/* .main-footer .footer-list{
+.main-footer .footer-list{
 	position:relative;
 }
 
@@ -742,7 +742,7 @@
 	font-weight:300;
 	color:#ffffff;
 	font-size:16px;
-} */
+} 
 
 /***
 
@@ -942,6 +942,50 @@
 	bottom:-5px;
 	border:1px dashed #acacac;
 }
+
+/* Responsive Menus Section */
+@media (max-width: 1200px) {
+    .menus-section .menu-column .inner-column {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menus-section .menu-column .inner-column {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menus-section .menu-column .inner-column {
+        padding: 30px 20px;
+    }
+    .menus-section .sec-title h2 {
+        font-size: 28px;
+    }
+    .menus-section .sec-title .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menus-section .menu-column .inner-column {
+        padding: 20px 15px;
+    }
+    .menus-section .sec-title h2 {
+        font-size: 24px;	
+    }
+    .menus-section .sec-title .title {
+        font-size: 18px;
+    }
+    .menus-section .menu-block .price-box .price {
+        font-size: 14px;
+    }
+    .menus-section .menu-block h6 {
+        font-size: 16px;
+    }
+}
+
 
 .menu-block{
 	position:relative;
@@ -2769,6 +2813,57 @@
 	font-family: "Flaticon";
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+    .banner-section-four .slide {
+        padding-top: 120px;
+        padding-bottom: 160px;
+    }
+    .banner-section-four .content-box h1 {
+        font-size: 48px;
+        line-height: 1.1em;
+    }
+    .banner-section-four .mouse-btn-down {
+        width: 80px;
+        height: 25px;
+        margin-left: -40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .banner-section-four .slide {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .banner-section-four .content-box h1 {
+        font-size: 36px;
+        line-height: 1.1em;
+    }
+    .banner-section-four .mouse-btn-down {
+        width: 70px;
+        height: 22px;
+        margin-left: -35px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .banner-section-four .slide {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .banner-section-four .content-box h1 {
+        font-size: 28px;
+        line-height: 1.1em;
+    }
+    .banner-section-four .mouse-btn-down {
+        width: 60px;
+        height: 20px;
+        margin-left: -3
+	}
+}
+
 /*** 
 
 ====================================================================
@@ -2872,6 +2967,69 @@
 	background-color:#beb996;
 	border-color:#beb996;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .testimonial-section-two .inner-container {
+        padding: 0 80px;
+    }
+    .testimonial-block-two .inner-box .text {
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+    .testimonial-section-two .icon-layer-one {
+        width: 250px;
+        height: 280px;
+    }
+    .testimonial-section-two .icon-layer-two {
+        width: 200px;
+        height: 100px;
+        right: 50px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .testimonial-section-two {
+        padding: 60px 15px;
+    }
+    .testimonial-section-two .inner-container {
+        padding: 0 30px;
+    }
+    .testimonial-block-two .inner-box .text {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+    .testimonial-section-two .icon-layer-one {
+        width: 180px;
+        height: 200px;
+        left: 10px;
+    }
+    .testimonial-section-two .icon-layer-two {
+        width: 150px;
+        height: 70px;
+        right: 10px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .testimonial-section-two {
+        padding: 40px 10px;
+    }
+    .testimonial-block-two .inner-box .text {
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .testimonial-block-two .inner-box .designation {
+        font-size: 12px;
+    }
+    .testimonial-section-two .icon-layer-one,
+    .testimonial-section-two .icon-layer-two {
+        display: none;
+    }
+}
+
 
 /*** 
 
