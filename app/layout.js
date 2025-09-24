@@ -10,17 +10,15 @@ import { niconne, poppins, tangerine } from '@/lib/font';
 
 export const metadata = {
   title: 'Voice of Jesus Ministries',
-  description: 'Voice of Jesus Ministrieswebsite',
-  icons: {
-    icon: [
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' }
-    ],
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon.ico',
-  },
-  manifest: '/site.webmanifest',
-  themeColor: '#ffffff',
+  description: 'A React/Next.js website for Foodily',
+  icons: [
+    { rel: "icon", type: "image/png", sizes: "32x32", url: "/favicon-32x32.png" },
+    { rel: "icon", type: "image/png", sizes: "16x16", url: "/favicon-16x16.png" },
+    { rel: "apple-touch-icon", sizes: "180x180", url: "/apple-touch-icon.png" },
+    { rel: "shortcut icon", url: "/favicon.ico" }
+  ],
+  manifest: "/site.webmanifest",
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }) {
