@@ -1735,13 +1735,13 @@
 
 .restaurant-section .opening-box .box-inner h3{
 	color:#ffffff;
-	font-size:36px;
+	font-size:3px;
 	margin-bottom:25px;
 	font-family: 'LillyBelle';
 }
 
 .restaurant-section .opening-box .box-inner h3 span{
-	font-size:30px;
+	font-size:12px;
 	display:block;
 }
 
@@ -3043,3 +3043,9 @@
 	opacity:0.20;
 	text-align:center;
 }
+
+.banner-section-four h1 {
+	font-family: 'Poppins', sans-serif !important; /* or another normal font */
+	font-weight: 700; /* optional */
+  }
+  
