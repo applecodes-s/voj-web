@@ -35,7 +35,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation">
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="index-4">Home</Link>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="home">Home</Link>
                                   
                                 </li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">About</Link>
@@ -51,7 +51,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="gallery">Gallery</Link></li>
                                     </ul>
                                 </li>
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/gallery">Magazine</Link>
+                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/Magazine">Magazine</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>                                 
                                         <li><Link href="Magazine">Magazine</Link></li>
                                     </ul>
