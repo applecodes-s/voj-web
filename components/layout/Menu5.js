@@ -15,7 +15,7 @@ export default function Menu() {
             <ul className="navigation right-nav clearfix">
                
              
-                <li><Link href="frappe">Give</Link></li>
+                <li><Link href="give">Give</Link></li>
 
                 <li><Link href="contact">Contact</Link></li>
             </ul>

@@ -71,7 +71,7 @@ export default function Menu() {
                                     <div className="menu-item">
                                         {/* <h6><Link href="#">young keeps & Asparagus</Link></h6> */}
                                         <div className="sub-title">Monthly fasting prayers and intercessory gatherings where we seek God's face for nations, communities, and individuals according to Holy Spirit guidance.</div>
-                                        <h6><Link href="#"> Daily at 10:00 AM and 4:00 PM  Second Saturday of each month</Link></h6>
+                                        <h6><Link href="#">Alternate Second Saturday of each month 9:30 AM to 4:00 PM</Link></h6>
 
                                        
                                     </div>

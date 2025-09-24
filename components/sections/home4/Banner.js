@@ -34,9 +34,9 @@ export default function Banner() {
         <SwiperSlide>
           <div className="slide" style={{ backgroundImage: 'url(assets/images/main-slider/1.jpg)' }}>
             <div className="auto-container">
-              <div className="content-box">
-                <div className="box-inner">
-                  <h1>Legacy of Prophet<br /> Vincent SelvaKumar</h1>
+              <div className="content-box tw-text-left">
+                <div className="box-inner tw-text-1lg">
+                  <h1>Legacy of Prophet <br /> Vincent <br /> SelvaKumar</h1>
                   <div className="text tw-text-white tw-mb-8">
                     Built on a foundation of divine encounter and prophetic calling, our ministry <br/>
                     continues the powerful legacy established through decades of faithful service.
@@ -68,7 +68,7 @@ export default function Banner() {
                   </div>
                   <div className="btn-box text-center">
                   <Link href="gallery" className="theme-btn btn-style-four clearfix">
-                    <span className="icon flaticon-arrow-pointing-to-right"></span> read more
+                    <span className="icon flaticon-arrow-pointing-to-right"></span>  Gallery
                     </Link>
                   </div>
                 </div>

@@ -14,19 +14,19 @@ export default function Menu() {
        
             <ul className="navigation left-nav clearfix">
                 <li className="dropdown">
-                    <Link href="index-4">Home </Link>
+                    <Link href="home">Home </Link>
                     
                 </li>
                 <li className="dropdown">
                     <Link href="about">About</Link>
                     <ul>
                         <li><Link href="about">About</Link></li>
-                        <li><Link href="restaurant">Prophetic Centre</Link></li>
+                        <li><Link href="prophetic-centre">Prophetic Centre</Link></li>
                     </ul>
 
                 </li>
                 <li><Link href="gallery">Gallery</Link></li>
-                <li><Link href="gallery">Magazine</Link></li>
+                <li><Link href="Magazine">Magazine</Link></li>
 
                
             </ul>

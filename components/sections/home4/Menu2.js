@@ -18,7 +18,7 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-1.png" alt="" />
                                 </div>
-                                <h6><Link href="#">WORSHIP & PRAYER</Link></h6>
+                                <h6><Link href="https://www.youtube.com/watch?v=3zprKxjLlEQ&list=PLvDojcgf9-Na71HJi9JsgR49KKRLxyFfA">WORSHIP & PRAYER</Link></h6>
                                 <div className="text">Join us in heartfelt worship and intercession as we encounter God’s presence.</div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-2.png" alt="" />
                                 </div>
-                                <h6><Link href="#">PROPHETIC TEACHINGS                                </Link></h6>
+                                <h6><Link href="https://www.youtube.com/watch?v=zW5aJTmSaq0&list=PLO1BPXbJZB7Wp_upsyCdhNagC-64NX4cO">PROPHETIC TEACHINGS                                </Link></h6>
                                 <div className="text">Be equipped and edified through powerful biblical and prophetic revelations.</div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export default function Menu2() {
                                 <div className="icon">
                                     <img src="assets/images/icons/menu-3.png" alt="" />
                                 </div>
-                                <h6><Link href="#">WATCH SERMONS</Link></h6>
+                                <h6><Link href="https://www.youtube.com/watch?v=Almpw3yaMFE&list=PLO1BPXbJZB7Xx-q9UPeLm8rMkV1MMe2Tb">WATCH SERMONS</Link></h6>
                                 <div className="text">Stay connected with our YouTube sermons, livestreams, and media updates.</div>
                             </div>
                         </div>
