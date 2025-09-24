@@ -41,7 +41,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">About</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
                                         <li><Link href="about">About</Link></li>
-                                        <li><Link href="restaurant">Restaurant</Link></li>
+                                        <li><Link href="prophetic-centre">Restaurant</Link></li>
                                     </ul>
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
@@ -53,10 +53,10 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
                                 <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/gallery">Magazine</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="gallery">Magazine</Link></li>
+                                        <li><Link href="Magazine">Magazine</Link></li>
                                     </ul>
                                 </li>
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="frappe">Give</Link>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="give">Give</Link>
                                   
                                   </li>
                                 <li><Link href="/contact">Contact</Link></li>

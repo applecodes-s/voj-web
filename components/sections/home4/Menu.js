@@ -9,7 +9,7 @@ export default function Menu() {
                 
                 <div className="auto-container">
                 <div className="text tw-text-center tw-mb-6">
-                <h4 className="tw-text-black tw-text-5xl tw-mb-4">Our Ministry Programs</h4>
+                <h4 className="tw-text-black tw-text-5xl sm:text-2xl tw-mb-4">Our Ministry Programs</h4>
                     <span className="tw-text-black "> Discover the diverse ways God is moving through our prophetic ministry<br/>
                          to transform lives and prepare hearts for His coming kingdom.</span>
                                 </div>
