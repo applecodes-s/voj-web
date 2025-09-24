@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
         <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Sow Into God’s Kingdom ">
-        {/* Milkshake Section */}
+        {/* Donation Section */}
         <section className="milkshake-section">
            
             <div className="auto-container">
@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        {/* End Milkshake Section */}
+        {/* End donaitons Section */}
         
         {/* Frape Variant Section */}
         <section className="frape-variant-section">

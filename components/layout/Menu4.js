@@ -15,34 +15,20 @@ export default function Menu() {
             <ul className="navigation left-nav clearfix">
                 <li className="dropdown">
                     <Link href="index-4">Home </Link>
-                    {/* <ul>
-                        <li className=""><Link href="/">Home One</Link></li>
-                        <li><Link href="index-2">Home Two</Link></li>
-                        <li><Link href="index-3">Home Three</Link></li>
-                        <li><Link href="index-4">Home Four</Link></li>
-                    </ul> */}
+                    
                 </li>
                 <li className="dropdown">
-                    <Link href="#">About</Link>
+                    <Link href="about">About</Link>
                     <ul>
                         <li><Link href="about">About</Link></li>
-                        {/* <li><Link href="team">Team</Link></li> */}
                         <li><Link href="restaurant">Prophetic Centre</Link></li>
                     </ul>
 
                 </li>
                 <li><Link href="gallery">Gallery</Link></li>
-              
-                {/* <li className="dropdown">
-                    <Link href="#">Menu</Link>
-                    <ul>
-                        <li><Link href="menu">Menu</Link></li>
-                        <li><Link href="milkshake">Milk Shake</Link></li>
-                        <li><Link href="frappe">Frappe</Link></li>
-                        <li><Link href="boba-tea">Boba Tea</Link></li>
-                        <li><Link href="slushy">Slushy</Link></li>                        
-                    </ul>
-                </li> */}
+                <li><Link href="gallery">Magazine</Link></li>
+
+               
             </ul>
         </>
     )

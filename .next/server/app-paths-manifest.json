@@ -1,6 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/index-4/page": "app/index-4/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/not-found": "app/not-found.js",
+  "/contact/page": "app/contact/page.js",
+  "/restaurant/page": "app/restaurant/page.js",
+  "/frappe/page": "app/frappe/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/index-4/page": "app/index-4/page.js"
 }

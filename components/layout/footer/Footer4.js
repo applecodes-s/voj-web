@@ -20,7 +20,7 @@ export default function Footer4() {
                                             <div className="logo">
                                                 <Link href="/"><img src="assets/images/logo.png" alt="" /></Link>
                                             </div>
-                                            <div className="text">Proin gravida nibh vel velit <br/> Lorem Ipsum. Duis sed proin <br/> gravida nibh.</div>
+                                            <div className="text">A prophetic ministry proclaiming <br/> end-time prophecies and preparing the world for the Second Coming of Jesus Christ.</div>
                                         </div>
                                     </div>
                                     
@@ -29,7 +29,7 @@ export default function Footer4() {
                                         <div className="footer-widget contact-widget">
                                             <h6>Contact us</h6>
                                             <ul className="contact-list">
-                                                <li><Link href="mailto:voiceofjesusministries.com">www.voiceofjesusministries.com</Link></li>
+                                                {/* <li><Link href="mailto:voiceofjesusministries.com">www.voiceofjesusministries.com</Link></li> */}
                                                 <li><Link href="mailto:vincentselvakumaar@gmail.com">vincentselvakumaar@gmail.com</Link></li>
                                                 <li><Link href="tel:+91 9788404222">+91 9788404222</Link></li>
                                                 <li><Link href="tel:+91 9788404333">+91 9788404333</Link></li>

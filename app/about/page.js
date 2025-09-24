@@ -66,11 +66,11 @@ export default function About() {
                                 <div className="text">Voice of Jesus Ministries International – a pioneering prophetic ministry dedicated to proclaiming end-time prophecies and preparing the world for the Second Coming of the King of kings, Lord Jesus Christ – was founded by Bro. Vincent Selva Kumar in 1978.
                                     <br/> <br/>     Bro. Vincent Selva Kumar, known for his divine encounter with God during his college days, surrendered his life to the Lord with the sole objective of sharing prophetic messages aimed at preparing the world for the Second Coming of the Lord.</div>
                             </div>
-                            <ul className="list-style-two">
+                            {/* <ul className="list-style-two">
                                 <li>Cras at mi luctus, tincidunt urna eu, posuere enim</li>
                                 <li>Vivamus elementum lorem vitae quam tincidunt</li>
                                 <li>Suspendisse accumsan eros eu erat condimentum</li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                     
@@ -89,10 +89,7 @@ export default function About() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <img src="assets/images/gallery/19.jpg" alt="" />
-                                    <div className="overlay-box">
-                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -104,10 +101,7 @@ export default function About() {
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img src="assets/images/gallery/20.jpg" alt="" />
-                                            <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -116,10 +110,7 @@ export default function About() {
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img src="assets/images/gallery/23.jpg" alt="" />
-                                            <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -134,10 +125,7 @@ export default function About() {
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img src="assets/images/gallery/21.jpg" alt="" />
-                                            <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -147,10 +135,7 @@ export default function About() {
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img src="assets/images/gallery/22.jpg" alt="" />
-                                            <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -160,10 +145,7 @@ export default function About() {
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img src="assets/images/gallery/24.jpg" alt="" />
-                                            <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
-                                            </div>
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -174,67 +156,7 @@ export default function About() {
         </section>
         {/* End Gallery Section Two */}
         
-        {/* Staff Section */}
-        <section className="staff-section">
-            <div className="auto-container">
-                {/* Sec Title */}
-                <div className="sec-title centered">
-                    <div className="title">Current Leadership</div>
-                    <h2>Bro. Jonathan James & Sis. Angeline Jonathan                    </h2>
-                    <div className="text">Bro. Jonathan James and Sis. Angeline Jonathan, kin of Bro. Vincent Selva Kumar,
-                         have taken upon themselves <br/> the responsibility of continuing  the ministry and legacy of his vision. <br/> <br/>
-                        Having embraced this mission, they have dedicated their lives to carrying it forward to the people 
-                        of this end-time generation.  <br/> Grounded in prayer, prophetic revelation, and extraordinary oratory skills,
-                         they have remained steadfast <br/> in their commitment to serving God.</div>
-                </div>
-                <div className="row clearfix justify-content-center">
-                
-                    {/* Staff Block */}
-               
-                    
-                    {/* Staff Block */}
-                    <div className="staff-block col-lg-4 col-md-6 col-sm-12">
-                        <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div className="image">
-                                <Link href="#"><img src="assets/images/resource/staff-2.jpg" alt="" /></Link>
-                                <div className="overlay-box">
-                                    <div className="content">
-                                        <h6><Link href="#">Jusica Malina</Link></h6>
-                                        <div className="designation">Pastry Chef</div>
-                                        <ul className="social-list">
-                                            <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-facebook-square"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-twitter-square"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {/* Staff Block */}
-                    <div className="staff-block col-lg-4 col-md-6 col-sm-12">
-                        <div className="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div className="image">
-                                <Link href="#"><img src="assets/images/resource/staff-3.jpg" alt="" /></Link>
-                                <div className="overlay-box">
-                                    <div className="content">
-                                        <h6><Link href="#">Jusica Malina</Link></h6>
-                                        <div className="designation">Pastry Chef</div>
-                                        <ul className="social-list">
-                                            <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-facebook-square"></span></Link></li>
-                                            <li><Link href="#"><span className="icon fa fa-twitter-square"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
+      
       
 
             </Layout>

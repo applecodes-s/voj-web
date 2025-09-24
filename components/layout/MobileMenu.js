@@ -51,6 +51,11 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="gallery">Gallery</Link></li>
                                     </ul>
                                 </li>
+                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/gallery">Magazine</Link>
+                                    <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>                                 
+                                        <li><Link href="gallery">Magazine</Link></li>
+                                    </ul>
+                                </li>
                                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="frappe">Give</Link>
                                   
                                   </li>
