@@ -161,7 +161,7 @@ export default function ContactPage() {
                   </li>
                   <li>
                     <strong>Opening Hours</strong>
-                    Monday – Friday 09:00 – 23:00 <br /> Saturday 09:00 – 22:00
+                    Monday – Thursday 9AM - 7PM <br /> Friday - Saturday 9AM - 5PM
                   </li>
                   <li>
                     <strong>Contact</strong>

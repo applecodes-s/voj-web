@@ -37,8 +37,8 @@ export default function Home() {
                                     <div className="box-inner">
                                         <h3>Opening <span>Hours</span></h3>
                                         <ul className="timing-list">
-                                            <li>Mon - Thu<span>9AM - 9PM</span></li>
-                                            <li>Fri- Sat<span>10AM - 10PM</span></li>
+                                            <li>Mon - Thu<span>9AM - 7PM</span></li>
+                                            <li>Fri- Sat<span>9AM - 5PM</span></li>
                                         </ul>
                                         <div className="closed">SUNDAY CLOSED</div>
                                     </div>

@@ -47,7 +47,7 @@ export default function Footer4() {
                                     {/*Footer Column*/}
                                     <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                         <div className="footer-widget visit-widget">
-                                            <h6>Visit</h6>
+                                            <h6>Visit Us</h6>
                                             <div className="text">NGO Colony, Anna Nagar <br/> Ramanathapuram, <br/> Tamil Nadu 623 501 </div>
                                         </div>
                                     </div>

@@ -73,12 +73,12 @@ Stand with us. Sow into prophecy. Together, let us proclaim His Word to the worl
         <h6><Link href="#">Bank Transfer</Link></h6>
         <div className="text">Direct bank transfer to our ministry account for larger donations.</div>
         <ul className="account-details mt-3">
-          <li><strong>Account Name:</strong> VINCENT SELVA KUMAR</li>
-          <li><strong>Account No:</strong> 910010022737183</li>
-          <li><strong>Bank:</strong> AXIS BANK LTD.</li>
-          <li><strong>Branch:</strong> RAMANATHAPURAM BRANCH</li>
-          <li><strong>IFSC:</strong> UTIB0001080</li>
-          <li><strong>SWIFT Code:</strong> AXISINBB109</li>
+          <li className="tw-text-black bold"><strong>Account Name: VINCENT SELVA KUMAR</strong> </li>
+          <li className="tw-text-black bold"><strong>Account No: 910010022737183</strong> </li>
+          <li className="tw-text-black bold"><strong>Bank: AXIS BANK LTD.</strong> </li>
+          <li className="tw-text-black bold"><strong>Branch:  RAMANATHAPURAM BRANCH</strong></li>
+          <li className="tw-text-black bold"><strong>IFSC: UTIB0001080</strong> </li>
+          <li className="tw-text-black bold"><strong>SWIFT Code: AXISINBB109</strong> </li>
         </ul>
       </div>
     </div>
@@ -94,12 +94,12 @@ Stand with us. Sow into prophecy. Together, let us proclaim His Word to the worl
         <h6><Link href="#">Bank Transfer</Link></h6>
         <div className="text">Direct bank transfer to our ministry account for larger donations.</div>
         <ul className="account-details mt-3">
-          <li><strong>Account Name:</strong> Voice of Jesus Ministries</li>
-          <li><strong>Account No:</strong> 910010023338787</li>
-          <li><strong>Bank:</strong> AXIS BANK LTD.</li>
-          <li><strong>Branch:</strong> RAMANATHAPURAM BRANCH</li>
-          <li><strong>IFSC:</strong> UTIB0001080</li>
-          <li><strong>SWIFT Code:</strong> AXISINBB109</li>
+          <li className="tw-text-black bold"><strong>Account Name: Voice of Jesus Ministries</strong> </li>
+          <li className="tw-text-black bold"><strong>Account No: 910010023338787</strong> </li>
+          <li className="tw-text-black bold"><strong>Bank: AXIS BANK LTD.</strong> </li>
+          <li className="tw-text-black bold"><strong>Branch: RAMANATHAPURAM BRANCH</strong> </li>
+          <li className="tw-text-black bold"><strong>IFSC: UTIB0001080</strong> </li>
+          <li className="tw-text-black bold"><strong>SWIFT Code: AXISINBB109</strong> </li>
         </ul>
       </div>
     </div>

@@ -24,9 +24,9 @@ export default function Menu() {
                                     <h4>Voice of Shadows</h4>
                                     {/* Menu Item */}
                                     <div className="menu-item">
-                                        <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline James.</Link></h6>
+                                        <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline Jonathan</Link></h6>
                                         <div className="sub-title">Powerful insights into the lesser-known yet deeply impactful men in the Bible who stood as backbone for Prophets and Apostles, revealing God's hidden heroes.</div>
-                                        <h6><Link href="#">Weekly on Sundays at 10:00 <br/>AM</Link></h6>
+                                        <h6><Link href="#"> Every Sunday at 10:00 AM</Link></h6>
 
                                     </div>
                                 
@@ -46,9 +46,9 @@ export default function Menu() {
                                     <h4>Fulfilled Prophecy</h4>
                                     {/* Menu Item */}
                                     <div className="menu-item">
-                                    <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline James.</Link></h6>
+                                    <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline Jonathan</Link></h6>
                                     <div className="sub-title">Enlightening exploration of Bible prophecies and their remarkable fulfillment throughout history, confirming God's  plan and unshakable promises.</div>
-                                    <h6><Link href="#">Monthly on First Friday at 7:00 PM</Link></h6>
+                                    <h6><Link href="#">First Friday of every month</Link></h6>
 
                                     </div>
                                 
@@ -65,13 +65,13 @@ export default function Menu() {
                                 <div className="content">
                                     <div className="menu-title">Fasting Prayer</div>
                                     <h4>Intercessory Prayer</h4>
-                                    <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline James.</Link></h6>
+                                    <h6><Link href="#">by Bro. Jonathan James and <br/> Sis. Angeline Jonathan</Link></h6>
 
                                     {/* Menu Item */}
                                     <div className="menu-item">
                                         {/* <h6><Link href="#">young keeps & Asparagus</Link></h6> */}
                                         <div className="sub-title">Monthly fasting prayers and intercessory gatherings where we seek God's face for nations, communities, and individuals according to Holy Spirit guidance.</div>
-                                        <h6><Link href="#">Alternate Second Saturday of each month 9:30 AM to 4:00 PM</Link></h6>
+                                        <h6><Link href="#">November 9:30 AM to 4:00 PM</Link></h6>
 
                                        
                                     </div>
